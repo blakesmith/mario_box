@@ -1,8 +1,13 @@
 use <pixel_canvas.scad>
 
 COLOR_PALETTE = [
-  ["yellow", 1.0],
-  ["black", 1.2],
+  "yellow",
+  "black",
+];
+
+COLOR_HEIGHTS = [
+  1.0,
+  1.2,
 ];
 
 PIXELS = [
@@ -24,4 +29,4 @@ PIXELS = [
   [-7, -7, 1], [-6, -7, 1], [-5, -7, 1], [-4, -7, 1], [4, -7, 1], [5, -7, 1], [6, -7, 1], [7, -7, 1],
 ];
 
-pixel_canvas(canvas_size=170, pixel_count=17, pixels=PIXELS, color_palette=COLOR_PALETTE);
+pixel_canvas(canvas_size=170, pixel_count=17, pixels=PIXELS, color_palette=COLOR_PALETTE, color_heights=COLOR_HEIGHTS);
