@@ -12,7 +12,10 @@ module pixel_canvas(canvas_size, pixel_count, pixels, color_palette, color_heigh
     pixel_size = canvas_size / pixel_count;
     scale([pixel_size, pixel_size, 1.0]) {
 	for (coord = pixels) {
-	    pixel(x=coord[0], y=coord[1], pixel_color=color_palette[coord[2]], pixel_height=color_heights[coord[2]] * pixel_size);
+	    x = coord[0];
+	    y = coord[1];
+	    color_index = coord[2];
+	    pixel(x=x, y=y, pixel_color=color_palette[color_index], pixel_height=color_heights[color_index] * pixel_size);
 	}
     }
 }
