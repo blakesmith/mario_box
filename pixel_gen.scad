@@ -1,3 +1,9 @@
+star();
+
+module star() {
+    pixel_canvas(canvas_size=170, pixel_count=17, pixels=STAR_PIXELS, color_palette=STAR_COLOR_PALETTE, color_heights=STAR_COLOR_HEIGHTS);
+}
+
 module pixel(x, y, pixel_color, pixel_height = 1.0) {
     color(pixel_color) {
 	linear_extrude(height = pixel_height) {
@@ -8,12 +14,12 @@ module pixel(x, y, pixel_color, pixel_height = 1.0) {
     }
 }
 
-COLOR_PALETTE = [
+STAR_COLOR_PALETTE = [
   "yellow",
   "black",
 ];
 
-COLOR_HEIGHTS = [
+STAR_COLOR_HEIGHTS = [
   1.0,
   1.2,
 ];
@@ -37,13 +43,11 @@ STAR_PIXELS = [
   [-7, -7, 1], [-6, -7, 1], [-5, -7, 1], [-4, -7, 1], [4, -7, 1], [5, -7, 1], [6, -7, 1], [7, -7, 1],
 ];
 
-module body(canvas_size, pixel_count, pixels) {
+module pixel_canvas(canvas_size, pixel_count, pixels, color_palette, color_heights) {
     pixel_size = canvas_size / pixel_count;
     scale([pixel_size, pixel_size, 1.0]) {
 	for (coord = pixels) {
-	    pixel(x=coord[0], y=coord[1], pixel_color=COLOR_PALETTE[coord[2]], pixel_height=COLOR_HEIGHTS[coord[2]] * pixel_size);
+	    pixel(x=coord[0], y=coord[1], pixel_color=color_palette[coord[2]], pixel_height=color_heights[coord[2]] * pixel_size);
 	}
     }
 }
-
-body(canvas_size=170, pixel_count=17, pixels=STAR_PIXELS);
