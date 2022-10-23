@@ -33,4 +33,4 @@ PIXELS = [
 	  [-15, 0, 3], [-14, 0, 3],
 ];
 
-pixel_canvas(canvas_size=170, pixel_count=17, pixels=PIXELS, color_palette=COLOR_PALETTE, color_heights=COLOR_HEIGHTS);
+pixel_canvas(canvas_size=155, pixel_count=17, pixels=PIXELS, color_palette=COLOR_PALETTE, color_heights=COLOR_HEIGHTS);

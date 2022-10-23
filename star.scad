@@ -29,4 +29,4 @@ PIXELS = [
      [-7, -7, 1], [-6, -7, 1], [-5, -7, 1], [-4, -7, 1], [4, -7, 1], [5, -7, 1], [6, -7, 1], [7, -7, 1],
 ];
 
-pixel_canvas(canvas_size=170, pixel_count=17, pixels=PIXELS, color_palette=COLOR_PALETTE, color_heights=COLOR_HEIGHTS);
+pixel_canvas(canvas_size=155, pixel_count=17, pixels=PIXELS, color_palette=COLOR_PALETTE, color_heights=COLOR_HEIGHTS);
