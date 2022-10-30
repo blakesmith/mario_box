@@ -4,11 +4,11 @@ These are 3D Printed Super Mario "power ups" that my son and I modeled
 and printed for his Halloween costume. We assembled them into a
 classic mario "question mark block", for his trick-or-treat candy box.
 
-![Question Mark Block Front](https://raw.github.com/blakesmith/mario_box/photos/front_mario_box.jpg)
+![Question Mark Block Front](https://raw.githubusercontent.com/blakesmith/mario_box/main/photos/front_mario_box.jpg)
 
-![Power Up Prints](https://raw.github.com/blakesmith/mario_box/photos/printouts.jpg)
+![Power Up Prints](https://raw.githubusercontent.com/blakesmith/mario_box/photos/printouts.jpg)
 
-![Mushroom OpenSCAD Viewport Screenshot](https://raw.github.com/blakesmith/mario_box/photos/scad_flower_screenshot.jpg)
+![Mushroom OpenSCAD Viewport Screenshot](https://raw.githubusercontent.com/blakesmith/mario_box/photos/scad_flower_screenshot.jpg)
 
 Models:
 
@@ -22,7 +22,7 @@ Models:
 # Formats
 
 All the printouts were modeled in [OpenSCAD](https://openscad.org),
-with source included. Each model is built using a [https://github.com/blakesmith/mario_box/blob/main/pixel_canvas.scad](pixel canvas)
+with source included. Each model is built using a [pixel canvas](https://github.com/blakesmith/mario_box/blob/main/pixel_canvas.scad)
 OpenSCAD abstraction. Each color is built using a different height-map
 for each color change.
 
