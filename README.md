@@ -26,7 +26,7 @@ with source included. Each model is built using a [pixel canvas](https://github.
 OpenSCAD abstraction. Each color is built using a different height-map
 for each color change.
 
-I've also included the 3MF and STL file exports from the original
+I've also included the [3MF](https://github.com/blakesmith/mario_box/tree/main/3mf) and [STL](https://github.com/blakesmith/mario_box/tree/main/stl) file exports from the original
 OpenSCAD for slicing and printing.
 
 # Printing
