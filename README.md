@@ -6,9 +6,9 @@ classic mario "question mark block", for his trick-or-treat candy box.
 
 ![Question Mark Block Front](https://raw.githubusercontent.com/blakesmith/mario_box/main/photos/front_mario_box.jpg)
 
-![Power Up Prints](https://raw.githubusercontent.com/blakesmith/mario_box/photos/printouts.jpg)
+![Power Up Prints](https://raw.githubusercontent.com/blakesmith/mario_box/main/photos/printouts.jpg)
 
-![Mushroom OpenSCAD Viewport Screenshot](https://raw.githubusercontent.com/blakesmith/mario_box/photos/scad_flower_screenshot.jpg)
+![Mushroom OpenSCAD Viewport Screenshot](https://raw.githubusercontent.com/blakesmith/mario_box/main/photos/scad_flower_screenshot.jpg)
 
 Models:
 
